@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+
+    <title>Registro</title>
+
+</head>
+<body>
+    <div class="header-container">
+        <header>
+            <h1>Academia Geomática - Registro de Usuario</h1>
+        </header>
+    </div>
+    <br><br>
+    <main>
+        <form action="entrada2.html" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Digite su nombre">
+
+            <label for="correo">Correo Electrónico</label>
+            <input type="email" id="correo" name="correo" required placeholder="Ejemplo: MagnaCali@hotmail.com">
+
+            <label for="fecha">Fecha de Nacimiento</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="cantidad">Contraseña</label>
+            <input type="password" id="cantidad" name="cantidad" min="1" required >
+
+            <input type="submit" value="Registrarse">
+        </form>
+    </main><br>
+    <footer>
+        <p>Contacto: geom@infovalle.com</p>
+        <p>Telefono: 2645478</p>
+      </footer>
+    </body>
+</html>

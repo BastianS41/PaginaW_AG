@@ -1,0 +1,148 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("tierra.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.main-title {
+  width: 60%;
+  justify-content: center;
+  background-color: hsl(0, 0%, 100%);
+  padding: 10px;
+  border-radius: 12px 12px 0px 0px;
+  margin-top: 40px;
+  text-align: center;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  padding: 8px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+  margin: 0;
+  padding: 5px;
+}
+
+/*------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  position: relative;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #202020;
+  position: absolute;
+  width: 60%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 115px;
+  text-align: center;
+  margin-top: 28px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.topnav a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+/*-------------------------------*/
+.gallery-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.gallery {
+  margin: 40px 10px 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 220px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.gallery:hover {
+  border: 1px solid #fff;
+}
+
+.gallery img {
+  width: 100%;
+  height: 70%;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.pie {
+  display: flex;
+  justify-content: center;
+}
+.pie-pag {
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  background-color: hsl(0, 0%, 0%);
+  padding: 10px;
+  border-radius: 0px;
+  font-size: 15px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  margin: 10;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 12px;
+  text-align: center;
+  color: #ffffff;
+  margin: 0;
+  padding: 8px;
+}
+
+.final{
+  color: #ffffff !important;
+  text-align: center !important; 
+    text-shadow: none !important;
+    font-size: 17px !important; 
+}
