@@ -19,7 +19,7 @@ h1 {
     text-align: center;
     color: #ffffff;
     text-shadow: 2px 2px 4px rgba(0, 255, 51, 0.5);
-    margin: 5;
+    margin: 0;
     padding: 42px;
 }
 
@@ -61,6 +61,10 @@ body {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     background-color: #000;
     color: #fff;
     text-align: center;
